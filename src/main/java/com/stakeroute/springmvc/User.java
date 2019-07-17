@@ -1,26 +1,23 @@
 package com.stakeroute.springmvc;
 
+import org.springframework.stereotype.Component;
+
+
 public class User {
+    private String name;
 
-    private String username;
+    public User()
+    {
 
-    public User(String username) {
-        this.username = username;
     }
 
-    public String getUsername() {
-        return username;
+    public String getName() {
+        return name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setName(String name) {
+        this.name = name;
     }
 
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "username='" + username + '\'' +
-                '}';
-    }
 }

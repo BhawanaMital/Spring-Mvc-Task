@@ -48,8 +48,18 @@
       <artifactId>jstl</artifactId>
       <version>1.2</version>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+    </dependency>
 
-<!--    &lt;!&ndash; for compile only, your container should have this &ndash;&gt;-->
+    <!--    &lt;!&ndash; for compile only, your container should have this &ndash;&gt;-->
 <!--    <dependency>-->
 <!--      <groupId>javax.servlet</groupId>-->
 <!--      <artifactId>servlet-api</artifactId>-->
